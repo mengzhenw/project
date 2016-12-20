@@ -1,0 +1,128 @@
+body {
+  background-color: #efefef;
+  font-family: SimHei;
+}
+.header {
+  height: 40px;
+  background-color: #fff;
+  line-height: 40px;
+}
+.header .icon-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: url("../../img/nav_back_icon@2x.png") no-repeat center;
+  background-size: 12px 18px;
+}
+.header .header-title {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.s_box {
+  background-color: #fff;
+  color: #646464;
+  display: flex;
+  margin-top: 10px;
+}
+.s_box .s_left {
+  flex: 1;
+  display: inline-block;
+  line-height: 35px;
+  text-align: center;
+  position: relative;
+}
+.s_box .s_left .left_txt {
+  color: #ea5404;
+}
+.s_box .s_left:after {
+  content: '';
+  position: absolute;
+  left: 8px;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: #f00;
+}
+.s_box .s_right {
+  flex: 1;
+}
+.s_box .s_right .s_cont {
+  line-height: 35px;
+  color: #efefef;
+}
+.s_box .s_right .right_txt {
+  line-height: 35px;
+  padding-left: 30%;
+}
+.demand_cells {
+  padding: 10px 0;
+}
+.demand_cell {
+  width: 100%;
+  min-height: 100px;
+  border-radius: 5px;
+  box-shadow: 0 0 1px 1px #e0e0e0;
+  background-color: #fff;
+}
+.demand-title {
+  padding: 10px;
+  display: flex;
+  border-bottom: 1px solid #e0e0e0;
+}
+.d-t-name {
+  flex: 1;
+  color: #323232;
+}
+.d-t-tag {
+  display: inline-flex;
+  padding: 4px 8px;
+  font-style: normal;
+  font-size: 12px;
+  background: #15b755;
+  color: #fff;
+  border-radius: 5px;
+}
+.d-t-tag1 {
+  display: inline-flex;
+  padding: 4px 8px;
+  font-style: normal;
+  font-size: 12px;
+  background: #0193e6;
+  color: #fff;
+  border-radius: 5px;
+}
+.demand-info {
+  padding: 10px;
+  margin: 0;
+  line-height: 1.2em;
+  color: #646464;
+}
+.demand-footer {
+  display: flex;
+  height: 30px;
+  line-height: 30px;
+  padding: 10px;
+}
+.demand-footer .btn-detail {
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  color: #998;
+  border: 1px solid #ececec;
+  border-radius: 5px;
+  background-color: #efefef;
+}
+.demand-footer .text-time {
+  flex: 1;
+  font-style: normal;
+  text-align: right;
+  font-size: 0.8rem;
+  color: #878787;
+}

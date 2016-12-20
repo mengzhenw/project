@@ -1,0 +1,77 @@
+body
+  background-color #efefef
+  font-family SimHei
+.header
+  height 40px
+  background-color #fff
+  line-height 40px
+  .icon-back
+    position absolute
+    top 10
+    left 0
+    display inline-block
+    width 35px
+    height 35px
+    background url("../../img/nav_back_icon@2x.png") no-repeat center
+    background-size 12px 18px
+  .header-title
+    display inline-block
+    width 100%
+    text-align center
+.info_in
+  margin-top 10px
+  background-color #fff
+  .info_txt
+    padding 0 20px
+    display flex
+    color #646464
+    position relative
+    font-size 12px
+    &:after
+      content ''
+      position absolute
+      bottom 0
+      left 20px
+      right 0
+      z-index 5
+      display block
+      height 1px
+      width 100%
+      background-color #efefef
+    &:before
+      content ''
+      position absolute
+      left 400px
+      width 16px
+      height 40px
+      display inline-block
+      background url("../../img/info/content_list_right_icon@2x.png") no-repeat center
+      background-size 50%
+    .info_mail
+      line-height 40px
+      flex 1
+    .info_photo
+      position absolute
+      left 28%
+      width 40px
+      height 40px
+      border-radius 50%
+      background url("../../img/info/content_list_icon01@2x.png") no-repeat left center
+      background-size 22px 22px
+    .info_text
+      line-height 40px
+      flex 3
+.info_footer
+  display inline-block
+  .info_foot
+    width 100px
+    height 70px
+    background-color #646464
+    border-radius 5px
+    margin-top 20px
+    margin-left 27px
+  .foot_txt
+    font-size 12px
+    color #646464
+    text-align center
+    padding 10px 35px

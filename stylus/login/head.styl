@@ -1,0 +1,59 @@
+body
+  background-color #efefef
+  font-family SimHei
+.header
+  display flex
+  height 50px
+  background-color #fff
+
+  .icon-back
+    display block
+    width 50px
+    height 50px
+    background url("../../img/nav_back_icon@2x.png") no-repeat center
+    background-size 25%
+  .header-title
+    flex 1
+    padding-right 50px
+    line-height 50px
+    text-align center
+.info_in
+  margin-top 10px
+  background-color #ffffff
+  .info_txt
+    padding 0 20px
+    display flex
+    color #646464
+    .info_mail
+      line-height 40px
+      font-size 12px
+      flex 1
+    .info_text
+      line-height 40px
+      font-size 12px
+      flex 2
+      &:after
+        content ''
+        position absolute
+        bottom -1
+        left 0
+        right 0
+        z-index 5
+        display block
+        height 1px
+        width 100%
+        background-color #efefef
+.info_footer
+  display inline-block
+  .info_foot
+    width 100px
+    height 70px
+    background-color #646464
+    border-radius 5px
+    margin-top 20px
+    margin-left 15px
+  .foot_txt
+    font-size 12px
+    color #646464
+    text-align center
+    padding 10px 20px

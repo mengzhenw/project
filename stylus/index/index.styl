@@ -1,0 +1,207 @@
+@import "../login/head.styl"
+body
+  font-family SimHei
+.header
+  position absolute
+  top 0
+  z-index 5
+  width 100%
+  color #fff
+  background-color transparent
+  .icon-back
+    width 65px
+    padding-left 15px
+    background transparent url("../../img/index/nav_icon_down@2x.png") no-repeat left 50px center
+    background-size 12px 6px
+    line-height 50px
+    font-style normal
+  .header_title
+    padding-left 80px
+    line-height 50px
+
+.search_box
+  position absolute
+  top 50px
+  right 15px
+  left 15px
+  z-index 5
+  .search_input
+    height 30px
+    border-radius 3px
+    background-color #f1f1f1
+    text-align center
+    line-height 30px
+    color #999
+    .icon-search
+      display inline-block
+      width 30px
+      height 30px
+      background url("../../img/index/nav_icon_search@2x.png") no-repeat center
+      background-size 16px
+      vertical-align bottom
+
+.slider_box
+  width 100%
+  height 320px
+  overflow hidden
+  .slider_container
+    width 500%
+    transition all .5s
+    transform translateX(0)
+    &:after
+      content ''
+      display block
+      visibility hidden
+      height 0
+      clear both
+    .slider_block
+      float left
+      width 375px
+      background url("../../img/index/banner_img@2x.png") no-repeat center
+      &:nth-child(2)
+        background url("../../img/index/22_01-02.png") no-repeat center
+      &:nth-child(3)
+        background url("../../img/index/banner_img@2x.png") no-repeat center
+      &:nth-child(4)
+        background url("../../img/index/22_02.png") no-repeat center
+      &:nth-child(5)
+        background url("../../img/index/banner_img@2x.png") no-repeat center
+  .point_box
+    position relative
+    top -30px
+    z-index 5
+    height 16px
+    text-align center
+    .point_block
+      display inline-block
+      width 16px
+      height 16px
+      background url("../../img/index/banner_icon_point_nor@2x.png") no-repeat center
+      background-size 10px
+      &.active
+        background url("../../img/index/banner_icon_point_press@2x.png") no-repeat center
+        background-size 10px
+.query_box
+  display flex
+  width 100%
+  height 50px
+  margin-top 10px
+  background-color #fff
+  .query_block
+    flex 1
+    &.active
+      background-color #00cc99
+    .text
+      display block
+      height 35px
+      text-align center
+      line-height 35px
+    .icon
+      display block
+      height 15px
+      background url("../../img/index/content_icon02_nor@2x.png") no-repeat center
+  .query_price
+    width 50px
+    height 50px
+    background url("../../img/index/content_icon01_nor@2x.png") no-repeat center
+    background-size 30px
+    &.active-down
+      background url("../../img/index/content_icon01_down@2x.png") no-repeat center
+      background-size 30px
+    &.active-up
+      background url("../../img/index/content_icon01_litre@2x.png") no-repeat center
+      background-size 30px
+
+.block_box
+  display flex
+  padding 15px
+  background-color #fff
+  .img_box
+    background url("../../img/index/content_img_list@2x.png") no-repeat center
+    flex 3
+  .info_box
+    flex 5
+    margin-left 10px
+    .info-title
+      position relative
+      .info_pink
+        width 28px
+        height 26px
+        background url("../../img/index/collect_icon_nor@2x.png") no-repeat center
+        background-size 50%
+        display inline-block
+        position absolute
+        right 0
+        top -5px
+        &.pink_down
+          background url("../../img/index/collect_icon_press@2x.png") no-repeat center
+          background-size 50%
+    .info-address
+      color #878787
+      font-size 14px
+    .info-tag_box
+      width 50px
+      padding 3px 5px
+      color #ea5404
+      font-size 12px
+      border 1px solid #ea5404
+      border-radius 5px
+    .info-price
+      color #878787
+      font-size 12px
+      position relative
+      .info_em
+        color #ea5404
+        font-size 14px
+      .info_yj
+        color #878787
+        font-size 12px
+        position: absolute
+        right 0
+
+.down-box
+  display: none
+.icon-top
+  width 47px
+  height 47px
+  display block
+  background url("../../img/index/content_btn_back@2x.png") no-repeat center
+  background-size 47px 47px
+  position fixed
+  right 5%
+  bottom 80px
+footer.bottom-list
+  width 100%
+  padding 2% 0
+  border-top 1px solid #d6d7dc
+  background-color #FFFFFF
+  position fixed
+  bottom 0
+  display flex
+  .bottom-column
+    text-align center
+    flex 1
+    img
+      width 22px
+    img.add-img
+      width 42px
+    p
+      margin 0
+      font-size 0.8rem
+      color #b4b4b4
+    p.active
+      color $orange
+      position relative
+      &:after
+        content '3'
+        color #FFFFFF
+        width 15px
+        height 15px
+        border-radius 50%
+        text-align center
+        line-height 15px
+        background-color #ec461f
+        position absolute
+        display block
+        top -27px
+        left 42px
