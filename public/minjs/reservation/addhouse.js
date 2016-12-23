@@ -1,0 +1,1 @@
+var $hid=$(".hid"),$confirm=$(".confirm"),$confirms=$(".hid .confirms");$confirm.on("tap",function(){$hid.show()}),$confirms.on("tap",function(){$hid.hide()});

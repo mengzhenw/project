@@ -7,9 +7,17 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<link rel="stylesheet" href="//cdn.bootcss.com/normalize/5.0.0/normalize.min.css">
 	<link rel="stylesheet" href="../../public/css/login/loading.css">
-	<title>项目</title>
+	<title>地表最强 - 南京锋耀达网络科技有限公司</title>
+	<meta name="keywords" content="南京锋耀达网络科技有限公司">
+	<meta name="description" content="南京锋耀达网络科技有限公司成立于2015年，公司主要经营教育软件、多媒体技术、游戏开发等。">
 </head>
 <body>
+	<div>
+		用户名：<input id="user" type="text"><br/><br/>
+		密 	&nbsp;码：<input id="passwd" type="password"><br/>
+		<button id="send">登录</button>
+	</div>
+
 	<div class="logo" onclick="location='login.html'"></div>
 	<div class="copy">Copyright@2016</div>
 
@@ -21,4 +29,38 @@
 	<!--<script src="//cdn.bootcss.com/jquery/2.2.4/jquery.js"></script>
 	<script src="//cdn.bootcss.com/angular.js/2.0.0-beta.17/angular0.js"></script>-->
 </body>
+<script src="//cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script>
+<script>
+function remainTime(){
+
+	location.href="login.html";
+}
+//window.onload = setTimeout(remainTime,1500);
+$("#send" ).on("click",function(){
+	var username = $("#user" ).val();
+	var passwd = $("#passwd" ).val()
+
+	$.ajax({
+		url:'/api/user/login',
+		type:"POST",
+		dataType:'json',
+		data:{
+			username:username,
+			passwd:passwd
+		},
+		success:function(result){
+			console.log("result",result);
+			if(result.code==1){
+				alert("登陆成功");
+				setTimeout(remainTime,1000);
+			}else{
+				alert(result.msg)
+			}
+		},
+		/*complete:function(res){
+		 console.log('res',res)
+		 }*/
+	});
+});
+</script>
 </html>

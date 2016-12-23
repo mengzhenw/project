@@ -38,7 +38,8 @@ body {
   border-radius: 50%;
 }
 .login_box .login_img .img_ipt {
-  margin-top: 20px;
+  margin: 30px 10px;
+  width: 85%;
   opacity: 0;
 }
 .login_box .login_con {

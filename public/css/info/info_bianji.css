@@ -72,6 +72,11 @@ body {
   background: url("../../img/info/content_list_icon01@2x.png") no-repeat left center;
   background-size: 22px 22px;
 }
+.info_in .info_txt .info_ipt {
+  width: 80%;
+  margin-top: 10px;
+  opacity: 0;
+}
 .info_in .info_txt .info_text {
   line-height: 40px;
   flex: 1;
@@ -92,6 +97,16 @@ body {
   border-radius: 5px;
   margin-top: 20px;
   margin-left: 10px;
+  position: relative;
+}
+.info_bottom .info_footer .info_foot .img_ipt1 {
+  display: block;
+  width: 70%;
+  height: 100%;
+  position: absolute;
+  left: 15%;
+  top: 35%;
+  opacity: 0;
 }
 .info_bottom .info_footer .foot_txt {
   font-size: 12px;

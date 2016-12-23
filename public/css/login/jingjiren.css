@@ -143,8 +143,11 @@ body {
   height: 40px;
   border-radius: 5px;
   margin-top: 20px;
-  background-color: #ea5404;
+  background-color: #878787;
   color: #fff;
   text-align: center;
   line-height: 40px;
+}
+.content_footer .content_foot.active {
+  background-color: #ea5404;
 }

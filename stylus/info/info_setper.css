@@ -76,12 +76,22 @@ body {
   display: inline-block;
 }
 .info_footer .info_foot {
+  position: relative;
   width: 100px;
   height: 70px;
   background-color: #646464;
   border-radius: 5px;
   margin-top: 20px;
   margin-left: 27px;
+}
+.info_footer .info_foot .img_ipt1 {
+  display: block;
+  width: 70%;
+  height: 100%;
+  position: absolute;
+  left: 16%;
+  top: 35%;
+  opacity: 0;
 }
 .info_footer .foot_txt {
   font-size: 12px;

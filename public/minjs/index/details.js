@@ -1,0 +1,1 @@
+var $collect=$(".banner .icon-collect");$collect.on("click",function(){var c=$(this);c.hasClass("active")?c.removeClass("active"):c.addClass("active")});
