@@ -23,7 +23,7 @@
 	gulp.task('nodemon',function(ab){
 		var ft=false;
 		return nodemon({
-			script:'./app.js'
+			script:'./server.js'
 		} ).on('start',function(){
 			if(!ft){
 				ab();

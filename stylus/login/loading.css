@@ -21,3 +21,14 @@ body .copy {
   text-align: center;
   line-height: 50px;
 }
+body .box {
+  margin-top: 90%;
+  margin-left: 18%;
+  color: #6c6c6c;
+}
+body .box #send {
+  margin-left: 40%;
+  border: none;
+  border-radius: 3px;
+  color: #6c6c6c;
+}
