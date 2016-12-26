@@ -1,0 +1,76 @@
+body {
+  background-color: #efefef;
+  font-family: SimHei;
+}
+.header {
+  height: 40px;
+  background-color: #fff;
+  line-height: 40px;
+}
+.header .icon-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: url("../../img/nav_back_icon@2x.png") no-repeat center;
+  background-size: 12px 18px;
+}
+.header .header-title {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.block_box {
+  display: flex;
+  padding: 15px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+.block_box .img_box {
+  background: url("../../img/index/content_img_list@2x.png") no-repeat center;
+  flex: 3;
+}
+.block_box .info_box {
+  flex: 5;
+  margin-left: 10px;
+}
+.block_box .info_box .info-title {
+  position: relative;
+}
+.block_box .info_box .info-title .info_pink {
+  color: #878787;
+  font-size: 12px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 5px;
+}
+.block_box .info_box .info-address {
+  color: #878787;
+  font-size: 14px;
+}
+.block_box .info_box .info-tag_box {
+  width: 50px;
+  padding: 3px 5px;
+  color: #ea5404;
+  font-size: 12px;
+  border: 1px solid #ea5404;
+  border-radius: 5px;
+}
+.block_box .info_box .info-price {
+  color: #878787;
+  font-size: 12px;
+  position: relative;
+}
+.block_box .info_box .info-price .info_em {
+  color: #ea5404;
+  font-size: 14px;
+}
+.block_box .info_box .info-price .info_yj {
+  color: #878787;
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+}

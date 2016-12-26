@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>地表最强 - 南京峰耀网络科技有限公司</title>
+	<meta name="keywords" content="南京峰耀网络科技有限公司">
+	<meta name="description" content="南京峰耀网络科技有限公司成立于2015年，公司主要经营教育软件、多媒体技术、游戏开发等。">
+	<link rel="stylesheet" href="//cdn.bootcss.com/normalize/5.0.0/normalize.min.css">
+	<script src="//cdn.bootcss.com/zepto/1.2.0/zepto.min.js"></script>
+	<script src="../../public/libs/zepto/touch.js"></script>
+	<link rel="stylesheet" href="../../public/css/reservation/shangchuanhetong.css">
+</head>
+<body>
+	<header>
+		<div class="con">
+			<span class="cancel">取消</span>上传合同书<span class="upload">上传</span>
+		</div>
+	</header>
+	<article>
+		<span>请按照要求添加照片</span>
+		<div class="box">合同第一页<input type="file"></div>
+		<div class="box">合同最后一页<input type="file"></div>
+	</article>
+	<div class="hid">
+		<div class="box">
+			<span class="text">你确定要取消本次上传？</span>
+			<button class="btn cancel">取消</button>
+			<button class="btn confirm">确定</button>
+		</div>
+	</div>
+	<div class="hid">
+		<div class="box">
+			<span class="text">合同书上传成功，后台正在审核</span>
+			<button class="btn confirms">确定</button>
+		</div>
+	</div>
+	<script>
+	var $hids=$(".hid"),
+			$cancel=$(".cancel"),
+			$upload=$(".upload"),
+			$cancelBtns=$hids.eq(0).find(".btn"),
+			$uploadConfirm=$hids.eq(1).find(".confirms");
+	$cancel.on("tap",function(){
+		$hids.eq(0).show()
+		console.log(111)
+	}),
+			$cancelBtns.on("click",function(){
+				$hids.eq(0).hide()
+			}),
+			$upload.on("click",function(){
+				$hids.eq(1).show()
+			}),
+			$uploadConfirm.on("click",function(){
+				location.href="xiangqing.html"
+			});
+	</script>
+</body>
+</html>
