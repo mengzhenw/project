@@ -1,0 +1,114 @@
+body
+  background-color #efefef
+  font-family SimHei
+.tab_box
+  background-color #ffffff
+  padding 2px 0
+.tab_bar
+  position relative
+  display flex
+  width 80%
+  height 30px
+  margin 10px auto
+  padding 0
+  list-style none
+  border-radius 5px
+  border 1px solid #ea5404
+  color #ea5404
+.tab_bar-cell
+  flex 1
+  line-height 30px
+  text-align center
+  &:after
+    content ""
+    display block
+    width 1px
+    height 30px
+    position absolute
+    top 0
+    background-color  #ea5404
+  &:first-child:after
+    content ""
+    display none
+  &.active
+    background-color  #ea5404
+    color #ffffff
+
+//信息
+.demand_cells
+  padding 10px 0
+  .demand_cell
+    width 100%
+    min-height 100px
+    border-radius 5px
+    box-shadow 0 0 1px 1px #e0e0e0
+    background-color #ffffff
+  .demand-title
+    padding 10px
+    display flex
+    border-bottom 1px solid #e0e0e0
+    .d-t-name
+      flex 1
+      color #323232
+    .text-time
+      flex 1
+      font-style normal
+      text-align right
+      font-size .8rem
+      color #646464
+//
+.demand-info
+  padding 10px
+  margin 0
+  line-height 1.2em
+  color #646464
+//
+.demand-footer
+  display flex
+  height 30px
+  line-height 30px
+  padding  10px
+  .btn-detail
+    width 100px
+    height 30px
+    text-align center
+    //padding 0 6px
+    color #999988
+    border 1px solid #ececec
+    border-radius 5px
+    background-color #efefef
+footer.bottom-list
+  width 100%
+  padding 2% 0
+  border-top 1px solid #d6d7dc
+  background-color #FFFFFF
+  position fixed
+  bottom 0
+  display flex
+  .bottom-column
+    text-align center
+    flex 1
+    img
+      width 22px
+    img.add-img
+      width 42px
+    p
+      margin 0
+      font-size 0.8rem
+      color #b4b4b4
+    p.active
+      color $orange
+      position relative
+      &:after
+        content '3'
+        color #FFFFFF
+        width 15px
+        height 15px
+        border-radius 50%
+        text-align center
+        line-height 15px
+        background-color #ec461f
+        position absolute
+        display block
+        top -27px
+        left 42px
