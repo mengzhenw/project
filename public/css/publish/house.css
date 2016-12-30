@@ -281,12 +281,13 @@ footer {
   padding: 10px 3%;
 }
 footer button {
-  width: 100%;
+  width: 90%;
   height: 40px;
   border: none;
   background: #ea5404;
   color: #fff;
   border-radius: 5px;
+  margin-left: 5%;
 }
 .hid {
   display: none;

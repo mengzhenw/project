@@ -112,14 +112,16 @@ article .status li span:nth-child(2) {
   float: right;
   margin-right: 3%;
 }
-article .dates {
+article .ddd {
+  background: #fff;
+}
+article .ddd .dates {
   display: block;
   height: 45px;
   line-height: 45px;
   border: none;
   outline: none;
   width: 100%;
-  text-indent: 20em;
 }
 .hid {
   display: none;

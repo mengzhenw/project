@@ -139,10 +139,11 @@ body {
   margin: 0 auto;
 }
 .content_footer .content_foot {
-  width: 350px;
+  width: 90%;
   height: 40px;
   border-radius: 5px;
   margin-top: 20px;
+  margin-left: 5%;
   background-color: #878787;
   color: #fff;
   text-align: center;

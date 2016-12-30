@@ -4,7 +4,7 @@ $lis.on("click",function(){
 });
 var $cons=$("section .con");
 $cons.on("click",function(){
-	location.href="details.html"
+	//location.href="details.html"
 });
 var $section=$("section");
 $section.on("swipeLeft",function(){

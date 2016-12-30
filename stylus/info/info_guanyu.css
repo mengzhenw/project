@@ -9,7 +9,7 @@ body {
 }
 .header .icon-back {
   position: absolute;
-  top: 0;
+  top: 10;
   left: 0;
   display: inline-block;
   width: 35px;
