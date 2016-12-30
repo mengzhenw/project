@@ -1,63 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e290a8e1-dcef-4e4e-bbf9-c66701f19419" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jQuery/jquery-1.12.4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jQuery/jquery-3.0.0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jQuery/jquery.slider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/minjs/jQuery/jquery-1.12.4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/minjs/jQuery/jquery-3.0.0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/minjs/jQuery/jquery.slider.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/info/info_detail.css" afterPath="$PROJECT_DIR$/public/css/info/info_detail.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/info/info_detailper.css" afterPath="$PROJECT_DIR$/public/css/info/info_detailper.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/info/info_guanyu.css" afterPath="$PROJECT_DIR$/public/css/info/info_guanyu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/info/info_setper.css" afterPath="$PROJECT_DIR$/public/css/info/info_setper.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/info/shoucang.css" afterPath="$PROJECT_DIR$/public/css/info/shoucang.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/login/head.css" afterPath="$PROJECT_DIR$/public/css/login/head.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/login/jingjiren.css" afterPath="$PROJECT_DIR$/public/css/login/jingjiren.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/login/login.css" afterPath="$PROJECT_DIR$/public/css/login/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/login/passwd.css" afterPath="$PROJECT_DIR$/public/css/login/passwd.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/login/register.css" afterPath="$PROJECT_DIR$/public/css/login/register.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/msg/msg_de.css" afterPath="$PROJECT_DIR$/public/css/msg/msg_de.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/msg/msg_dema.css" afterPath="$PROJECT_DIR$/public/css/msg/msg_dema.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/msg/msg_demand.css" afterPath="$PROJECT_DIR$/public/css/msg/msg_demand.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/publish/house.css" afterPath="$PROJECT_DIR$/public/css/publish/house.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/reservation/cancel.css" afterPath="$PROJECT_DIR$/public/css/reservation/cancel.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/reservation/detail.css" afterPath="$PROJECT_DIR$/public/css/reservation/detail.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/reservation/gaiqi.css" afterPath="$PROJECT_DIR$/public/css/reservation/gaiqi.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/reservation/index.css" afterPath="$PROJECT_DIR$/public/css/reservation/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/login/passwd.js" afterPath="$PROJECT_DIR$/public/js/login/passwd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/login/register.js" afterPath="$PROJECT_DIR$/public/js/login/register.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/reservation/index.js" afterPath="$PROJECT_DIR$/public/js/reservation/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/libs/zepto/touch.js" afterPath="$PROJECT_DIR$/public/libs/zepto/touch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/minjs/login/passwd.js" afterPath="$PROJECT_DIR$/public/minjs/login/passwd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/minjs/login/register.js" afterPath="$PROJECT_DIR$/public/minjs/login/register.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/minjs/reservation/index.js" afterPath="$PROJECT_DIR$/public/minjs/reservation/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylus/info/info_guanyu.css" afterPath="$PROJECT_DIR$/stylus/info/info_guanyu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylus/info/info_guanyu.styl" afterPath="$PROJECT_DIR$/stylus/info/info_guanyu.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylus/info/info_setper.styl" afterPath="$PROJECT_DIR$/stylus/info/info_setper.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylus/info/shoucang.styl" afterPath="$PROJECT_DIR$/stylus/info/shoucang.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylus/login/head.styl" afterPath="$PROJECT_DIR$/stylus/login/head.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylus/login/jingjiren.styl" afterPath="$PROJECT_DIR$/stylus/login/jingjiren.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylus/login/login.styl" afterPath="$PROJECT_DIR$/stylus/login/login.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylus/login/passwd.styl" afterPath="$PROJECT_DIR$/stylus/login/passwd.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylus/login/register.styl" afterPath="$PROJECT_DIR$/stylus/login/register.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylus/msg/msg_de.styl" afterPath="$PROJECT_DIR$/stylus/msg/msg_de.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylus/msg/msg_dema.styl" afterPath="$PROJECT_DIR$/stylus/msg/msg_dema.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylus/msg/msg_demand.styl" afterPath="$PROJECT_DIR$/stylus/msg/msg_demand.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylus/publish/house.styl" afterPath="$PROJECT_DIR$/stylus/publish/house.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylus/reservation/cancel.styl" afterPath="$PROJECT_DIR$/stylus/reservation/cancel.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylus/reservation/detail.styl" afterPath="$PROJECT_DIR$/stylus/reservation/detail.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylus/reservation/gaiqi.styl" afterPath="$PROJECT_DIR$/stylus/reservation/gaiqi.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylus/reservation/index.styl" afterPath="$PROJECT_DIR$/stylus/reservation/index.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index/index.html" afterPath="$PROJECT_DIR$/views/index/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/info/info_detail.html" afterPath="$PROJECT_DIR$/views/info/info_detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/login/passwd.html" afterPath="$PROJECT_DIR$/views/login/passwd.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/login/register.html" afterPath="$PROJECT_DIR$/views/login/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/reservation/gaiqi.html" afterPath="$PROJECT_DIR$/views/reservation/gaiqi.html" />
-    </list>
+    <list default="true" id="e290a8e1-dcef-4e4e-bbf9-c66701f19419" name="Default" comment="" />
     <ignored path="project_wang.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
