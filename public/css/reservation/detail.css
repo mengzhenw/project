@@ -41,6 +41,7 @@ article .icon {
 article .icon span {
   display: block;
   color: #646464;
+  margin-left: 10px;
 }
 article .icon span:nth-child(1) {
   color: #323232;
@@ -82,12 +83,13 @@ article .date {
 article .btn {
   background: #ea5404;
   color: #fff;
-  width: 100%;
+  width: 90%;
   height: 45px;
   line-height: 45px;
   border: none;
   border-radius: 5px;
   margin-top: 45px;
+  margin-left: 5%;
 }
 .hid {
   display: none;

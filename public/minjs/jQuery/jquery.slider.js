@@ -1,0 +1,1 @@
+!function(e){var n=800;e.fn.slider=function(i){function t(){a.find(".slider").animate({"margin-left":-n})}var r={slidertime:800,intervaltime:2e3},l=e.extend(!0,{},r,i),a=e(this),v=setInterval(t,l.intervaltime);a.find(".next").click(t),a.find(".prev").click(prev);a.hover(function(){console.log("hover"),clearInterval(v)},function(){v=setInterval(t,l.intervaltime)})}}(jQuery);

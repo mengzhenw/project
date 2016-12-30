@@ -161,6 +161,6 @@ footer.bottom-list .bottom-column p.active:after {
   background-color: #ec461f;
   position: absolute;
   display: block;
-  top: -27px;
-  left: 42px;
+  top: -185%;
+  left: 56%;
 }

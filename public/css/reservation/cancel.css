@@ -46,6 +46,7 @@ article .icon {
 article .icon span {
   display: block;
   color: #646464;
+  margin-left: 10px;
 }
 article .icon span:nth-child(1) {
   color: #323232;
@@ -144,6 +145,7 @@ footer .confirms {
   line-height: 45px;
   text-align: center;
   font-size: 16px;
+  border-radius: 5px;
 }
 .hid {
   display: none;

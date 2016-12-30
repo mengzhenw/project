@@ -57,7 +57,7 @@ article section .con .info .title .tdate {
 }
 article section .con .info .text {
   display: block;
-  text-indent: 1.2em;
+  font-size: 12px;
 }
 article section .con .info .date {
   color: #ff8a00;
@@ -81,9 +81,9 @@ article section .status {
   display: block;
   color: #fff;
   border-radius: 5px;
-  width: 55px;
-  height: 22px;
-  line-height: 22px;
+  width: 50px;
+  height: 20px;
+  line-height: 20px;
   text-align: center;
   float: right;
 }

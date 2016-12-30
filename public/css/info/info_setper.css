@@ -42,13 +42,13 @@ body {
   z-index: 5;
   display: block;
   height: 1px;
-  width: 100%;
+  width: 90%;
   background-color: #efefef;
 }
 .info_in .info_txt:before {
   content: '';
   position: absolute;
-  left: 400px;
+  left: 90%;
   width: 16px;
   height: 40px;
   display: inline-block;
