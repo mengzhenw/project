@@ -2,16 +2,68 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport"
-	content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<meta name="viewport" content="width=device-width,initial-scale=1,
+    maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="stylesheet" href="//cdn.bootcss.com/normalize/5.0.0/normalize.min.css">
+	<link rel="stylesheet" href="../public/css/login/loading.css">
 	<title>地表最强 - 南京峰耀网络科技有限公司</title>
 	<meta name="keywords" content="南京峰耀网络科技有限公司">
 	<meta name="description" content="南京峰耀网络科技有限公司成立于2015年，公司主要经营教育软件、多媒体技术、游戏开发等。">
-	<link rel="stylesheet" href="../public/css/index.css">
 </head>
 <body>
-	<p class="md">这是首页</p>
-	<script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
-	<script src="../public/js/index.js"></script>
+	<div class="logo" onclick="location='../login/login.html'"></div>
+	<div class="copy">Copyright@2016</div>
+	<div class="box">
+		<lable>用户名：</lable>
+		<input type="text" id="user" placeholder="用户名">
+		<br><br>
+		<lable>密&nbsp;码：&nbsp;</lable>
+		<input type="text" id="passwd" placeholder="密码">
+		<br><br>
+		<button id="send">登录</button>
+	</div>
+
+	<!--<script>
+		window.onload=function(){
+			location.href='login.html'
+		}
+	</script>-->
+	<!--<script src="//cdn.bootcss.com/jquery/2.2.4/jquery.js"></script>
+	<script src="//cdn.bootcss.com/angular.js/2.0.0-beta.17/angular0.js"></script>-->
 </body>
+<script src="//cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script>
+<script>
+function remainTime(){
+
+	location.href="login.html";
+}
+//window.onload = setTimeout(remainTime,1500);
+$("#send" ).on("click",function(){
+	var username = $("#user" ).val();
+	var passwd = $("#passwd" ).val()
+
+	$.ajax({
+		url:'/api/user/login',
+		type:"POST",
+		dataType:'json',
+		data:{
+			username:username,
+			passwd:passwd
+		},
+		success:function(result){
+			console.log("result",result);
+			if(result.code==1){
+				alert("登陆成功");
+				setTimeout(remainTime,1000);
+			}else{
+				alert(result.msg)
+			}
+		},
+		/*complete:function(res){
+		 console.log('res',res)
+		 }*/
+	});
+});
+</script>
 </html>
