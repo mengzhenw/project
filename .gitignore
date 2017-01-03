@@ -1,8 +1,8 @@
-	node_modules/
-	.idea/
-	.project/
-	.vscode/
-	*.exe
-	*.log
-	logs/
-	*.bak
+node_modules/
+.idea/
+.project/
+.vscode/
+*.exe
+*.log
+logs/
+*.bak
